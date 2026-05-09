@@ -1,0 +1,13 @@
+# Java class files
+*.class
+
+# CSVデータ（必要なら）
+data/kakeibo.csv
+
+# IDE系
+.vscode/
+.idea/
+
+# OSゴミ
+.DS_Store
+Thumbs.db
