@@ -1,3 +1,0 @@
-cd C:\java-study
-javac src\kakeibo\*.java
-java -cp src kakeibo.Main
