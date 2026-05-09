@@ -21,9 +21,8 @@
 - CSVでデータを永続化
 
 ## 🚀 実行方法
-javac kakeibo/*.java
-
-java kakeibo.Main
+javac src\kakeibo\*.java
+java -cp src kakeibo.Main
 
 ## 📈 今後の改善
 - 例外処理の強化
