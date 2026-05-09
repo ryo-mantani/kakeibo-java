@@ -22,6 +22,7 @@
 
 ## 🚀 実行方法
 javac src\kakeibo\*.java
+
 java -cp src kakeibo.Main
 
 ## 📈 今後の改善
