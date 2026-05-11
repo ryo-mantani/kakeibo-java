@@ -28,6 +28,6 @@ javac -d . src\kakeibo\*.java
 java kakeibo.Main
 
 ## 📈 今後の改善
-- 例外処理の強化
+- 例外処理の強化（CSVファイル読み込み時など）
 - GUI化（JavaFXなど）
 - データ検索機能の追加
