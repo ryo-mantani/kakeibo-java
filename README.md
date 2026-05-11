@@ -1,15 +1,15 @@
 # ryo-mantani-java
-簡易家計簿
+家計簿アプリ（Java CLI）
 
 ## 📌 概要
 コマンドライン上で動作するシンプルな家計簿アプリです。  
 収入・支出の登録や合計計算、CSVによるデータ保存ができます。
-Visual Studio Codeを使用しました。
 
 ## 🛠 使用技術
 - Java
 - Git / GitHub
-
+- Visual Studio Code
+- 
 ## ✨ 機能
 - 収入・支出の登録
 - 一覧表示
@@ -22,9 +22,9 @@ Visual Studio Codeを使用しました。
 - CSVでデータを永続化
 
 ## 🚀 実行方法
-javac src\kakeibo\*.java
+javac -d . src\kakeibo\*.java
 
-java -cp src kakeibo.Main
+java kakeibo.Main
 
 ## 📈 今後の改善
 - 例外処理の強化
